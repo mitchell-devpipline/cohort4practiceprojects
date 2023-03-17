@@ -1,0 +1,66 @@
+/* 
+Assignments 3/15/2023 -> DUE: Wednesday, 3/29/2023
+
+Random Hex Generator
+
+Following the provided high fidelity mockup, use HTML, css, and vanilla JS to create a project that generates a random background color when a button is clicked.
+-Must contain the elements in the mock design and reflect it next to perfect.
+ - title bar
+ - randomly generated hexadecimal color value
+ - the background color of the main content should reflect the hexadecimal value
+ - current hexadecimal value should be rendered to the page
+ - at least 1 transistion / pseudo state effect
+
+
+***********************************************
+Dynamic Navbar
+
+- I don't care what content you have in the navbar
+  - ex: logo on the left, links on the right
+- Media queries ot make the navbar responsive
+  - at a particular, display a hamburger icon instead of links
+  - using js, make the hamburger "open" and "close" the menu to show links
+
+Hint: 
+ - start with the pieces (html skeleton, styles, media queries, js)
+ - don't get hung up on 1 piece
+
+*************************************************
+Todo List
+
+Build a todo list using html, css(try scss), and vanilla js (styled "nicely", best practices)
+ - Page Header
+ - Input (add todos)
+ - Button (submit todo)
+ - Render your todo items with a todo title and a delete button
+ - Clicking on a title will "complete" that todo, and it should move into a "completed section"
+ - Clicking delete completely removes the todo
+
+KEEP UX in mind
+ -> types into input, clicks submit, creates todo, clears input
+
+BONUS:
+ persist todos in the browser (localstorage, cookies, sessionstorage, etc...)
+
+ ***************************************************
+ Counter Widget
+
+ - Header
+ - Current count (start at 0)
+ - Three buttons: decrease, reset, increase, that will update the count and render to the dom respectively.
+ - Current count should black if the count is 0. If it's in the positive, the count should be green, negative should be red.
+ - Style everything
+
+ ****************************************************
+ Character Countdown
+
+ - Input that disables itself after a set character limit (15)
+ - Label underneath the input that reflects how many characters are left.
+
+ HINT:
+  - look into the event type "input" vs "change"
+
+
+
+HAVE FUN!!!!!!!
+*/
