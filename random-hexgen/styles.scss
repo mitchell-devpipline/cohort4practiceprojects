@@ -33,13 +33,21 @@ body {
     // background-color: #f15025;
 
     .hex-display {
-      display: flex;
-      flex-direction: column;
       border: solid black 1px;
       background-color: black;
       color: whitesmoke;
       border-radius: 5px;
       margin-bottom: 35px;
+      width: 210px;
+
+      #p1 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        #hex-num {
+          color: #3e8bc4;
+        }
+      }
     }
 
     button {

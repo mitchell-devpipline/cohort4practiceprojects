@@ -32,16 +32,24 @@ body {
   align-items: center;
 }
 .page-wrapper .main-container .hex-display {
-  display: flex;
-  flex-direction: column;
   border: solid black 1px;
   background-color: black;
   color: whitesmoke;
   border-radius: 5px;
   margin-bottom: 35px;
+  width: 210px;
+}
+.page-wrapper .main-container .hex-display #p1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.page-wrapper .main-container .hex-display #p1 #hex-num {
+  color: #3e8bc4;
 }
 .page-wrapper .main-container button {
   padding: 8px 25px;
+  border: solid black 1px;
   border-radius: 10px;
   background-color: inherit;
 }/*# sourceMappingURL=styles.css.map */
