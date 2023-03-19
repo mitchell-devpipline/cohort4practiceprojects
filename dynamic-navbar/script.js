@@ -1,1 +1,1 @@
-function openMenu() {}
+function iconSwitch(e) {}
