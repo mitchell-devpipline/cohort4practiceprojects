@@ -1,7 +1,7 @@
 /* 
 Assignments 3/15/2023 -> DUE: Wednesday, 3/29/2023
 
-Random Hex Generator
+Random Hex Generator 100% done
 
 Following the provided high fidelity mockup, use HTML, css, and vanilla JS to create a project that generates a random background color when a button is clicked.
 -Must contain the elements in the mock design and reflect it next to perfect.
@@ -13,7 +13,7 @@ Following the provided high fidelity mockup, use HTML, css, and vanilla JS to cr
 
 
 ***********************************************
-Dynamic Navbar
+Dynamic Navbar - 88% done
 
 - I don't care what content you have in the navbar
   - ex: logo on the left, links on the right
@@ -43,7 +43,7 @@ BONUS:
  persist todos in the browser (localstorage, cookies, sessionstorage, etc...)
 
  ***************************************************
- Counter Widget
+ Counter Widget -10%
 
  - Header
  - Current count (start at 0)
@@ -52,7 +52,7 @@ BONUS:
  - Style everything
 
  ****************************************************
- Character Countdown
+ Character Countdown 90% done
 
  - Input that disables itself after a set character limit (15)
  - Label underneath the input that reflects how many characters are left.
