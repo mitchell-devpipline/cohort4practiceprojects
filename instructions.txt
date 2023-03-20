@@ -43,7 +43,7 @@ BONUS:
  persist todos in the browser (localstorage, cookies, sessionstorage, etc...)
 
  ***************************************************
- Counter Widget -10%
+ Counter Widget -95%
 
  - Header
  - Current count (start at 0)

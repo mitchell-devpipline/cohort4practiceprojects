@@ -1,39 +1,39 @@
 let count = 0;
 
-function increase() {
-  document.querySelector("#plus-one").addEventListener("click", () => {
-  count += 1;
-  console.log(count) 
-})
+function displayLogic(count){
+  const getRoot = document.getElementById("rootEl");
+  const findCounting = document.createElement("p");
+  const showText = document.createTextNode(`You have collected ${count} of Ryan's head(s)`);
+
+  findCounting.appendChild(showText);
+  return getRoot.appendChild(findCounting);
+  
 }
-increase()
+
+function increase(count) {
+  document.querySelector("#plus-one").addEventListener("click", () => {
+    count++
+    displayLogic(count)
+  })
+}
+increase(count)
 
 function decrease() {
   document.querySelector("#minus-one").addEventListener("click", () => {
-  count -= 1;
-  console.log(count) 
-})
+    count--
+    displayLogic(count)
+  })
 }
 decrease()
 
 function reset() {
   document.querySelector("#reset").addEventListener("click", () => {
-    count = 0; // => I tried exclusive equals on this but it didnt work. any idea why?
+    count = 0;
     console.log(count) 
-})
+    displayLogic(count)
+  })
 }
 reset()
 
-
-const getRoot = document.getElementById("rootEl");
-
-const findCounting = document.createElement("p");
-
-const showText = document.createTextNode(
-  `You have collected ${count} of Ryan's head(s)`
-);
-
-findCounting.appendChild(showText);
-getRoot.appendChild(findCounting);
 // findCounting.remove();
 // getRoot.appendChild(findCounting);
